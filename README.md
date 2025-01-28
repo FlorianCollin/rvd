@@ -280,6 +280,9 @@ You can find the constraints file for the pynq-z2 [here](src/xdc/pynqz2.xdc), wh
 To force the flush of the SD card you can used a button (but the FSM handle it in the latest version).
 
 
+- For a better understanding of the FSM related to this module  [error_to_sd](/src/sd/error_to_sd.vhd) please refer to the following FSM graph: [fsm](doc/fsm_sd.jpg)
+
+
 ### Part 2 : Error Correction Code
 
 #### Concept
